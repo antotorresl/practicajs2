@@ -19,7 +19,7 @@ def simular_tirada_ruleta():
 # Simular 10 tiradas
 for i in range(10):
     resultado = simular_tirada_ruleta()
-    print(f"Nro de juego: {i + 1}")
+    print(f"Nro de Juego: {i + 1}")
     print(f"Valor Aleatorio Generado: {resultado}")
     print(f"Nro que cayó en la ruleta: {resultado}")
     print()
